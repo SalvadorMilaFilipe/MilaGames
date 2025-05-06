@@ -1,0 +1,9 @@
+/* Gradiente vertical com as cores especificadas */
+.section-title h2,
+.content h3 {
+  background: linear-gradient(to bottom, rgb(211, 75, 44), rgb(227, 58, 28)); /* de vermelho alaranjado para vermelho vivo */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
